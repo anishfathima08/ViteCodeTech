@@ -131,19 +131,19 @@ const Header = () => {
                 <div
                   className="absolute hidden group-hover:block bg-white dark:bg-gray-800 shadow-lg 
                   rounded-md w-65 py-3 z-50">
-                  <a href="" onClick={() => navigate('/contact')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                  <a href="" onClick={() => navigate('/course')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
                     Data Science
                   </a>
-                  <a href="" onClick={() => navigate('/contact')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                  <a href="" onClick={() => navigate('/course')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
                     Web Design
                   </a>
-                  <a href="" onClick={() => navigate('/contact')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                  <a href="" onClick={() => navigate('/course')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
                     Web Development
                   </a>
-                  <a href="" onClick={() => navigate('/contact')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                  <a href="" onClick={() => navigate('/course')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
                     Frontend Web Development
                   </a>
-                  <a href="" onClick={() => navigate('/contact')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
+                  <a href="" onClick={() => navigate('/course')} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700">
                     Full Stack Web Development
                   </a>
                 </div>
