@@ -9,7 +9,7 @@ const MyContextProvider = ({children}) => {
 
     const navigate = useNavigate()
 
-    const url = 'https://vitecodetech-backend.onrender.com/'
+    const url = 'https://vitecodetech-backend.onrender.com'
 
     // Service Data Fetching
 
@@ -24,6 +24,9 @@ const MyContextProvider = ({children}) => {
             console.log(`Error Name : ${err.name}, Error Message : ${err.message}`)
         }
     }
+
+    console.log(serviceData);
+    
     
     useEffect(() => {
         fetchServiceData()
