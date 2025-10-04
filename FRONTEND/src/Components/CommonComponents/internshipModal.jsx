@@ -17,9 +17,9 @@ const InternshipModal = ({ isOpen, onClose }) => {
 
         // Build WhatsApp message
         const whatsappMessage = `Hello, I'm ${name}.
-Phone: ${phone}
-I'm interested in: ${selectedOption} internship program .
-Message: ${message}`;
+        Phone: ${phone}
+        I'm interested in: ${selectedOption} internship program .
+        Message: ${message}`;
 
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
             whatsappMessage
@@ -31,7 +31,7 @@ Message: ${message}`;
 
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
-            <div className="bg-white rounded-2xl shadow-xl w-[950px] max-w-full relative flex flex-col md:flex-row">
+            <div className="bg-white rounded-2xl shadow-xl w-[550px] max-w-full relative flex flex-col md:flex-row">
                 {/* Close Button */}
                 <button
                     onClick={onClose}
@@ -41,13 +41,13 @@ Message: ${message}`;
                 </button>
 
                 {/* Left Side - Image */}
-                <div className="w-full md:w-1/2">
+                {/* <div className="w-full md:w-1/2">
                     <img
                         src="/images/internship-banner.jpg"
                         alt="Internship"
                         className="w-full h-full object-cover rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none"
                     />
-                </div>
+                </div> */}
 
                 {/* Right Side - Form */}
                 <div className="w-full md:w-1/2 p-6">

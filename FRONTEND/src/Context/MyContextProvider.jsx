@@ -24,9 +24,6 @@ const MyContextProvider = ({children}) => {
             console.log(`Error Name : ${err.name}, Error Message : ${err.message}`)
         }
     }
-
-    console.log(serviceData);
-    
     
     useEffect(() => {
         fetchServiceData()

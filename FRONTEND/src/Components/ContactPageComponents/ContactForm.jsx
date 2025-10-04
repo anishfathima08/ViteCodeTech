@@ -73,7 +73,7 @@ const ContactForm = () => {
               <a href="#" className="hover:text-blue-400">
                 <FaFacebookF />
               </a>
-              <a href="https://www.instagram.com/vitecodetechnologies/?hl=en" target='_blank' className="hover:text-blue-400">
+              <a href="#" className="hover:text-blue-400">
                 <FaInstagram />
               </a>
               <a href="#" className="hover:text-blue-400">
